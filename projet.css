@@ -175,10 +175,10 @@ i{
 }
 @keyframes keline{
     from{
-        transform: translate(1503px);
+        transform: translateX(O);
     }
 to{
-    transform: translateX(-8000 px);
+    transform: translateX(-50%);
     }
 
 }
@@ -191,11 +191,58 @@ to{
         text-shadow: 2px 2px 2px #a8b2b7ad ;
     }
 }
-.pour{
+
+.feu{
     background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.23\ \(1\).jpeg);
-    width: 400px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     background-repeat: no-repeat;
-    border-radius: 20px 0 20px 20px;
-    box-shadow: 0px 10px 15px rgb(219, 189, 189);
+    border-radius: 20px 20px ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+.nu{
+    background-color: #445260d2;
+    position: absolute;
+    padding: 5px 15px;
+    border-radius: 10px;
+    i{
+        color: transparent;
+        background-color: yellow;
+        
+    }
+
+}
+.ol{
+    color: white;
+}
+.fou{
+    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.26.jpeg);
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+}
+.pa{
+    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.22\ \(1\).jpeg);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 15px;
+}
+.ve{
+    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.24\ \(1\).jpeg);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
