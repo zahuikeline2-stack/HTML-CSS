@@ -12,6 +12,11 @@ body{
 
    
 }
+#mere{
+    height: 100%;
+    width: 100%;
+ border: 2px solid rgba(255, 15, 15, 0.966);
+}
 header{
     display: flex;
    justify-content: space-around;
@@ -192,53 +197,159 @@ to{
     }
 }
 
-#fils5{
-    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.23\ \(1\).jpeg);
-    height: 250px;
-    width: 250px; 
-    border-radius: 20px;
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card{
+    width: 350px;
+}
+
+.img-wrapper{
     position: relative;
+}
+
+.img-wrapper img{
+    width: 350px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.badge{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: #8e8e8e;
+    color: #ffff;
+    border-radius: 2px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info span{
+    font-size: 17px;
+    font-weight: 700;
+}
+.le h1{
+    font-size: 50px;
+}
+.voisin{
+    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.24\ \(2\).jpeg);
+   background-size: cover;
+    height: 700px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#mere5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fils6{
+     margin: 30px; 
+    button{
+        width: 200px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+}
+.voisin{
+    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.24\ \(2\).jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    po
-
+    position: relative;
+    height: 800px;
+    width: 100%;
+   margin: 30px; 
+   padding: 90px;
+   position: relative;
 }
-.fils6{
-    display: flex;
-    justify-content: end;
-    
+.keline{
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        color: white;
+        margin: 200px;
+        font-size: 100px;
+    }
 }
-.fils6{
-    background: color #445260;
-    border-radius: 10px;
-    color: white;
-    position: absolute;
+.noura{
+    width: 500px;
+    height: 250px;
+    gap: 50px;
+    lorem{
+        color: white;
+    }
 }
-.mere8{
-    display: flex;
-}
-.fils7{
-    display: flex;
-  
-}
-.mere8{
+.noura{
     display: flex;
     flex-direction: column;
+    button{
+         width: 200px;
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid transparent;
+
+    }
 }
-#fils9{
-    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.21\ \(1\).jpeg);
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-    background-repeat: no-repeat;
+.noura{
+    .az{
+        color: white;
+        font-size: 20px;
+    }
 }
-#fils10{
-    background-image: url(./WhatsApp\ Image\ 2026-02-18\ at\ 10.02.26.jpeg);
-  height: 250px; 
- width: 250px;
- background-size: cover;
- border-radius: 10px;
- background-repeat: no-repeat;
- 
+.grdls{
+    border: 1px solid orange;
+    border-radius: 20px;
 }
-     
+
+.il{
+    display: flex;
+    gap: 500px;
+}
+.zi{
+    display: flex;
+    gap: 20px;
+    img{
+        border-radius: 10px;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+    }
+}
+#mere7{
+    display: flex;
+    gap: 1640px;
+}
+.pt{
+    button{
+        border: 1px solid black;
+        padding: 20px;
+        background-color: white;
+    }
+    display: flex;
+    gap: 10px;
+    margin: 40px;
+}
+#mere8{
+    border: 1px solid orange;
+ }
+ .ne{
+    img{
+        border-radius: 10px;
+    }
+ }
