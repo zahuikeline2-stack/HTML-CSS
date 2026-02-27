@@ -15,7 +15,6 @@ body{
 #mere{
     height: 100%;
     width: 100%;
- border: 2px solid rgba(255, 15, 15, 0.966);
 }
 header{
     display: flex;
@@ -221,11 +220,11 @@ to{
 
 .badge{
     position: absolute;
-    top: 15px;
-    right: 10px;
+    top: 9px;
+    right: 8px;
     background-color: #8e8e8e;
     color: #ffff;
-    border-radius: 2px;
+    
 }
 
 .info{
@@ -345,11 +344,66 @@ to{
     gap: 10px;
     margin: 40px;
 }
-#mere8{
-    border: 1px solid orange;
- }
  .ne{
     img{
         border-radius: 10px;
+    }
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+ 
+ #mere8{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .oi{
+    i{
+        border: 1px solid rgba(61, 140, 191);
+        border-radius: 30px;
+        color: rgba(61, 140, 191);
+        padding: 10px;
+    }
+    p{
+        color: rgba(61, 140, 191);
+    }
+    display: flex;
+    gap: 10px;
+ }
+ .kl{
+    display: flex;
+    margin: 20px;
+ }
+ .me{
+    img{
+        border-radius: 10px;
+    }
+    background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .mq{
+    img{
+        border-radius: 10px;
+    }
+    background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inet;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+ }
+ .kl{
+    p{
+        gap: 50px;
     }
  }
